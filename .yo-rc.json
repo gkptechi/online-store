@@ -29,7 +29,7 @@
     "clientFramework": "angularX",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "creationTimestamp": 1582793460262,
+    "creationTimestamp": 1582611737676,
     "testFrameworks": ["protractor"],
     "jhiPrefix": "jhi",
     "entitySuffix": "",

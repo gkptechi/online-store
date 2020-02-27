@@ -208,7 +208,7 @@ public class ShipmentResourceIT {
             .andExpect(jsonPath("$.[*].date").value(hasItem(DEFAULT_DATE.toString())))
             .andExpect(jsonPath("$.[*].details").value(hasItem(DEFAULT_DETAILS)));
     }
-    
+
     @Test
     @Transactional
     public void getShipment() throws Exception {

@@ -365,7 +365,7 @@ public class CustomerResourceIT {
             .andExpect(jsonPath("$.[*].city").value(hasItem(DEFAULT_CITY)))
             .andExpect(jsonPath("$.[*].country").value(hasItem(DEFAULT_COUNTRY)));
     }
-    
+
     @Test
     @Transactional
     public void getCustomer() throws Exception {
