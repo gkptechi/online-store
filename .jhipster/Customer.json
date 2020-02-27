@@ -70,8 +70,9 @@
             "relationshipType": "one-to-one",
             "otherEntityName": "user",
             "otherEntityRelationshipName": "customer",
+            "relationshipValidateRules": "required",
             "relationshipName": "user",
-            "otherEntityField": "id",
+            "otherEntityField": "login",
             "ownerSide": true
         },
         {
@@ -90,5 +91,7 @@
     "fluentMethods": true,
     "readOnly": false,
     "clientRootFolder": "",
-    "applications": "*"
+    "applications": [
+        "store"
+    ]
 }
